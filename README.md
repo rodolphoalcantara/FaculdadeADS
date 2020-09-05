@@ -1,2 +1,2 @@
-# ProgressoFaculdade
-Repositório para meu progresso no curso TADS do Senac
+# FaculdadeADS
+Repositório para o curso TADS do Senac
