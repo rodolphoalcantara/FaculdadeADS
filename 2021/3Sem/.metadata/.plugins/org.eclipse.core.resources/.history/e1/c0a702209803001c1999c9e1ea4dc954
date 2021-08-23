@@ -1,0 +1,42 @@
+package com.rodolphoalcantara.models;
+
+import java.util.List;
+
+
+public class Regiao {
+	
+	private String nome;
+	private List<Estado> estados;
+	private double pibTotal;
+	
+	
+	public List<Estado> getEstados() {
+		return estados;
+	}
+	public void setEstados(List<Estado> estados) {
+		this.estados = estados;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public double getPibTotal() {
+		return pibTotal;
+	}
+	public void setPibTotal(double pibTotal) {
+		this.pibTotal = pibTotal;
+	}
+	
+	
+	public static void geraPibTotal(Regiao regiao) {
+		
+		double somaPibs = regiao.estados.stream().reduce(0.0, (subtotal, estado) -> subtotal + estado.getPib(), Double::sum);
+		
+		regiao.setPibTotal(somaPibs);
+	}
+	
+	
+
+}

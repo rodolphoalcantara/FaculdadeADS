@@ -1,0 +1,37 @@
+package com.rodolphoalcantara;
+import java.io.*;
+
+
+public class Main {
+    public static void main(String [] args) {
+
+    	
+    	
+        
+    	
+    	
+/*      ------------------------------------- */
+/*      Exemplo de escrita em arquivo         */
+/*      ------------------------------------- */
+        String arquivoDeSaida = "saida.txt";
+
+        try {
+
+            FileWriter fileWriter = new FileWriter(arquivoDeSaida);
+
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            bufferedWriter.write("pib da regiao X = $$$$");
+            bufferedWriter.newLine();
+            bufferedWriter.write("pib da regiao Y = $$$$");
+
+            // feche o arquivo
+            bufferedWriter.close();
+        }
+        catch(IOException ex) {
+            System.out.println("Erro de escrita em '" + arquivoDeSaida + "'");
+        }    
+
+    }
+}
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;velocidadeDaMensagem&apos; in &apos;rpg.TrojanRPG.digita(...)&apos; to &apos;milisPorChar&apos;&#x0D;&#x0A;- Original project: &apos;RPG-Trojan&apos;&#x0D;&#x0A;- Original element: &apos;rpg.TrojanRPG.digita(String, long).velocidadeDaMensagem&apos;&#x0D;&#x0A;- Renamed element: &apos;velocidadeDaMensagem&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;velocidadeDaMensagem&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;rpg{TrojanRPG.java[TrojanRPG~digita~QString;~J@velocidadeDaMensagem!442!466!447!466!J!0!true" name="milisPorChar" references="true" stamp="1604014966603" version="1.0"/>
+</session>

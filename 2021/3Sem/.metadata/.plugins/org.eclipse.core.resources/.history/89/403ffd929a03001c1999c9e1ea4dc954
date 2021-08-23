@@ -1,0 +1,23 @@
+package com.rodolphoalcantara.helpers;
+
+import com.rodolphoalcantara.models.Regiao;
+
+public class CalculadorPib {
+	
+	public CalculadorPib() {
+		throw new RuntimeException("Não é possível instanciar esta classe.");
+	}
+	
+	
+	public double geraPibTotal(Regiao regiao) {
+		
+		double somaPibs = regiao.getEstados().stream().reduce(0.0, (subtotal, estado) -> subtotal + estado.getPib(), Double::sum);
+		
+		regiao.setPibTotal(somaPibs);
+		
+		return regiao.getPibTotal();
+	}
+	
+	
+
+}

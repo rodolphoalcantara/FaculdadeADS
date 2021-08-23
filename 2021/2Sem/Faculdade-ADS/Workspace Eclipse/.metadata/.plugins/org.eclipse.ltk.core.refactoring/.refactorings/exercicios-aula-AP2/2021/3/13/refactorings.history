@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;exercicios-aula-AP2/src/br.com.ap2.aula4&apos;&#x0D;&#x0A;- Original project: &apos;exercicios-aula-AP2&apos;&#x0D;&#x0A;- Destination element: &apos;exercicios-aula-AP2/src/br.com.ap2.aula4&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Exerc01.java&#x0D;&#x0A;     Exerc02.java&#x0D;&#x0A;     BubbleSort.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;br.com.ap2.aula4" element1="/src&lt;{Exerc01.java" element2="/src&lt;{Exerc02.java" element3="/src&lt;{BubbleSort.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1616537745559" units="3" version="1.0"/>
+</session>

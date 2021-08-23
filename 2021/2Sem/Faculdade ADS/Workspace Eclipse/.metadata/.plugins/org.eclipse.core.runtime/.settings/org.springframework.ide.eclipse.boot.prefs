@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=forum-rest-api
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.4.5
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Forum Rest API
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.rooalcantara
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=11
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=forum-rest-api
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.rooalcantara.forum
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

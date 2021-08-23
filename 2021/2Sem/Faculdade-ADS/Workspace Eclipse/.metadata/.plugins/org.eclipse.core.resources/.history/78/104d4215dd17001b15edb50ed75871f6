@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class TestaAula {
+	public static void main(String[] args) {
+		int a = 0, b = 0, n = 48;
+		while(n>0) {
+			if((n%2)==0)
+				a+=1;
+			else
+				b+=1;
+			
+			n=n/2;
+		}
+		System.out.printf("%d %d \n", a,b);
+	}
+}

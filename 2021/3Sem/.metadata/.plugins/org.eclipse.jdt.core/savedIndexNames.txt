@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.jdt.core
+1828839260.index
+646308851.index

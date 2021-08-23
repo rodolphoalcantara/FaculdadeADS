@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class TestaAula {
+	public static void main(String[] args) {
+		int x=28, y=17, aux;
+		if(x%y==0) {
+			x++;
+			if((x%2 !=0) || (y<x)) {
+				y = x*y;
+			}
+		}
+		
+		System.out.printf("x=%d y=%d \n",x,y);
+	}
+}

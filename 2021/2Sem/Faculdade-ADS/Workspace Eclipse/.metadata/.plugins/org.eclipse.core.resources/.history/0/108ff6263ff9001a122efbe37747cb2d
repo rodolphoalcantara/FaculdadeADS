@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class TestaAula {
+	public static void main(String[] args) {
+		String user = "John";
+		String password = "123456";
+		String login, senha;
+		Scanner entrada = new Scanner(System.in);
+		
+		boolean taCerto = false;
+		
+		do {
+			System.out.println("Digite o login: ");
+			login = entrada.next();
+			System.out.println("Digite a senha: ");
+			senha = entrada.next();
+			
+			if(login.equalsIgnoreCase(user) && senha.equals(password)) {
+				taCerto = true;
+			}
+		
+		} while (taCerto);
+		System.out.println("Login e senha corretos!");
+	}
+}

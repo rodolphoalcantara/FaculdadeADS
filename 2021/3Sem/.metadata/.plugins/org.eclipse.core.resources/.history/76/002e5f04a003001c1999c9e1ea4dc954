@@ -1,0 +1,59 @@
+package com.rodolphoalcantara;
+import java.io.*;
+import java.util.List;
+
+import com.rodolphoalcantara.helpers.LeitorDeArquivos;
+import com.rodolphoalcantara.models.Estado;
+import com.rodolphoalcantara.models.Regiao;
+
+
+public class Main {
+    public static void main(String [] args) {
+    	
+    	List<Estado> estados = LeitorDeArquivos.leitorEstadosEPibs("assets/pib.txt");
+    	List<Regiao> regioes = LeitorDeArquivos.leitorRegioes("assets/regioes.txt");
+    	
+    	for (Regiao regiao : regioes) {
+			System.out.println(regiao.getNome());
+//			for (Estado estado : regiao.getEstados()) {
+//				System.out.println(estado.getNome());
+//			}
+			System.out.println();
+		}
+    	
+    	
+    	
+    	//Imprimir na tela PIB por estado em relação ao total
+    	
+
+    	
+    	
+    	
+        
+    	
+    	
+/*      ------------------------------------- */
+/*      Exemplo de escrita em arquivo         */
+/*      ------------------------------------- */
+//        String arquivoDeSaida = "saida.txt";
+//
+//        try {
+//
+//            FileWriter fileWriter = new FileWriter(arquivoDeSaida);
+//
+//            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+//
+//            bufferedWriter.write("pib da regiao X = $$$$");
+//            bufferedWriter.newLine();
+//            bufferedWriter.write("pib da regiao Y = $$$$");
+//
+//            // feche o arquivo
+//            bufferedWriter.close();
+//        }
+//        catch(IOException ex) {
+//            System.out.println("Erro de escrita em '" + arquivoDeSaida + "'");
+//        }    
+
+    }
+}
+

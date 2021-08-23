@@ -1,0 +1,57 @@
+package com.rodolphoalcantara.helpers;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.rodolphoalcantara.models.Estado;
+import com.rodolphoalcantara.models.Regiao;
+
+public class LeitorDeArquivos {
+	
+	public LeitorDeArquivos() {
+		throw new RuntimeException("Não é possível instanciar esta classe.");
+	}
+	
+	static List<Estado> leitorEstadosEPibs(String file){
+		
+		String line = null;
+		List<Estado> estados = new ArrayList<Estado>();
+		
+		try {
+			FileReader fr = new FileReader(file);
+			BufferedReader br = new BufferedReader(fr);
+			
+			
+			while((line = br.readLine()) != null) {
+				String[] valores = line.split(";");
+				
+				estados.add(new Estado(valores[0], Double.parseDouble(valores[1])));
+			}
+			
+			br.close();			
+			
+		} catch (FileNotFoundException e) {
+			System.out.println("Não foi possível encontrar o aquivo '" + file + "'");    
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("Erro ao tentar ler o arquivo '" + file + "'");    
+			e.printStackTrace();
+		}
+		
+		return estados;
+	}
+	
+	static List<Regiao> leitorRegioes(String file){
+		
+		
+		
+		
+		
+		return null;
+	}
+
+}

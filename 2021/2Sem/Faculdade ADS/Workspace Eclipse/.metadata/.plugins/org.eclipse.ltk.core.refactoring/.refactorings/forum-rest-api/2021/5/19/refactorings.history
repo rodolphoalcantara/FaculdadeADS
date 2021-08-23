@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;br.com.alura.forum.modelo&apos; to &apos;com.rooalcantara.forum.modelo&apos;&#x0A;- Original project: &apos;forum-rest-api&apos;&#x0A;- Original element: &apos;forum-rest-api/src/main/java/br.com.alura.forum.modelo&apos;&#x0A;- Renamed element: &apos;forum-rest-api/src/main/java/com.rooalcantara.forum.modelo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;br.com.alura.forum.modelo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.alura.forum.modelo" name="com.rooalcantara.forum.modelo" qualified="false" references="true" stamp="1620177044217" textual="false" version="1.0"/>
+</session>

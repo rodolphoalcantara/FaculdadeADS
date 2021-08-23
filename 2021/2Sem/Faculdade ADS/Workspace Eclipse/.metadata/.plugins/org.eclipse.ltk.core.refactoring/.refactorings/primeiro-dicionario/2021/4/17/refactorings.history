@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;primeiro-dicionario/arquivo1.txt&apos; to &apos;arquivo.txt&apos;" description="Rename resource &apos;arquivo1.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="arquivo1.txt" name="arquivo.txt" stamp="1619219280644" updateReferences="true"/>
+</session>

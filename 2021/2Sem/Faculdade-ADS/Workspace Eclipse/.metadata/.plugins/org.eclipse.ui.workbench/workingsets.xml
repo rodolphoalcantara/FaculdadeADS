@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598817864334_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=Teste/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=exercicios-aula-AP2/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=lista-exercicios01-APII/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=reconhecimento-padroes/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598817864383_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1609261253527_5" label="Study" name="Study">
+<item elementID="=projeto-jpa" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ordem-servico-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mudi" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servlet-gerenciador" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/loja-virtual-repository" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jdbc-projeto-loja_virtual" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/loja-virtual-view-repository" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/java-8-features" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/java-collections" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613236498584_7" label="primeiro-semestre" name="primeiro-semestre">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExerciciosAula03PI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ADO10-PI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ADO4-AP1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListaExerciciosAPI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ADO11-PI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListaExercicio3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RPG-Trojan" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListaDeExercicios" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DiaDaSemanaTimer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListaExercicios2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListaExercicios4" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613236536002_8" label="segundo-semestre" name="segundo-semestre">
+<item elementID="=lista-exercicios01-APII" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=reconhecimento-padroes" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=exercicios-aula-AP2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1598817868686_2" label="Window Working Set" name="Aggregate for window 1598817868685"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1615923944476_8" label="Window Working Set" name="Aggregate for window 1615923944476"/>
+</workingSetManager>

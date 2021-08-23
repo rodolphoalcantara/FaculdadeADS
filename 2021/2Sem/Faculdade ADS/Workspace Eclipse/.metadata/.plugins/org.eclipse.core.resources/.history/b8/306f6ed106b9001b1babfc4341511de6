@@ -1,0 +1,39 @@
+package exercicios;
+
+public class exercicio4 {
+
+	/*
+	 * Temos triângulos feito de blocos.   
+	 * A linha superior tem 1 bloco, a próxima linha abaixo tem 2 blocos, apróxima linha tem 3 blocos e assim por diante. 
+	 * Criar uma função recursiva que calcule (sem loops ou multiplicação)o número total de blocos em um triângulo com o número especificado de linhas.
+	 * 
+	 * Exemplos:
+	 * triangulo(0)→0
+	 * triangulo(1)→1
+	 * triangulo(2)→3
+	*/
+		
+	public static void main(String[] args) {
+		
+		System.out.println(contarX("xxhixx"));
+		System.out.println(contarX("xhixhix"));
+		System.out.println(contarX("hi"));
+		
+		
+	}
+	
+	public static int contarX(String str) {
+		
+		if(str.isEmpty()) {
+			return 0;
+		}
+		if(str.charAt(0) == 'x') {
+			return 1 + contarX(str.substring(1));
+		}
+		
+		return 0 + contarX(str.substring(1));
+		
+	}
+	
+	
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/rodolpho/Documentos/Faculdade ADS/Workspace Eclipse/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+664318480.index
+955036812.index
+1500611900.index
+3703249002.index
+7887042.index
+1011242744.index
