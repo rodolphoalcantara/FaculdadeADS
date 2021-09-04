@@ -1134,3 +1134,337 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 21:10:14.653
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iIWBdXVx => OK
+!SESSION 2021-08-24 19:26:21.497 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-08-24 19:26:54.245
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-24 19:26:54.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d5e0621,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@aee3d6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-08-24 19:27:01.663
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-08-24 19:27:01.680
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:52.942
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:52.945
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3352452e[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=989)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:52.954
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:53.024
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:58.492
+!MESSAGE Boot LS startup time from start to initialized: 5505ms
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2021-08-24 19:27:58.916
+!MESSAGE Exception saving preferences to: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Cloud Foundry.prefs.
+!STACK 0
+java.io.FileNotFoundException: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Cloud Foundry.prefs (Argumento inválido)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.core.internal.preferences.SafeFileOutputStream.<init>(SafeFileOutputStream.java:49)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:281)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1075)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1051)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:389)
+	at org.springsource.ide.eclipse.commons.core.pstore.PreferenceBasedStore.put(PreferenceBasedStore.java:37)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.store(RunTargetPropertiesManager.java:105)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:79)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.addListener(LiveExpression.java:171)
+	at org.springframework.ide.eclipse.boot.dash.model.BootDashViewModel.<init>(BootDashViewModel.java:69)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext$Definition.get(SimpleDIContext.java:68)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.lambda$1(SimpleDIContext.java:106)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.getBean(SimpleDIContext.java:106)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator.getModel(BootDashActivator.java:140)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.model(BootDashTargetInfoSynchronizer.java:96)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.start(BootDashTargetInfoSynchronizer.java:47)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashCfPlugin.lambda$0(BootDashCfPlugin.java:25)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 4 0 2021-08-24 19:27:58.919
+!MESSAGE FileNotFoundException: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Cloud Foundry.prefs (Argumento inválido)
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Cloud Foundry.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:287)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1075)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1051)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:389)
+	at org.springsource.ide.eclipse.commons.core.pstore.PreferenceBasedStore.put(PreferenceBasedStore.java:37)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.store(RunTargetPropertiesManager.java:105)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:79)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.addListener(LiveExpression.java:171)
+	at org.springframework.ide.eclipse.boot.dash.model.BootDashViewModel.<init>(BootDashViewModel.java:69)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext$Definition.get(SimpleDIContext.java:68)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.lambda$1(SimpleDIContext.java:106)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.getBean(SimpleDIContext.java:106)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator.getModel(BootDashActivator.java:140)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.model(BootDashTargetInfoSynchronizer.java:96)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.start(BootDashTargetInfoSynchronizer.java:47)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashCfPlugin.lambda$0(BootDashCfPlugin.java:25)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: java.io.FileNotFoundException: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Cloud Foundry.prefs (Argumento inválido)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.core.internal.preferences.SafeFileOutputStream.<init>(SafeFileOutputStream.java:49)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:281)
+	... 31 more
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2021-08-24 19:27:58.921
+!MESSAGE Exception saving preferences to: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Docker.prefs.
+!STACK 0
+java.io.FileNotFoundException: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Docker.prefs (Argumento inválido)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.core.internal.preferences.SafeFileOutputStream.<init>(SafeFileOutputStream.java:49)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:281)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1075)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1051)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:389)
+	at org.springsource.ide.eclipse.commons.core.pstore.PreferenceBasedStore.put(PreferenceBasedStore.java:37)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.store(RunTargetPropertiesManager.java:105)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:79)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.addListener(LiveExpression.java:171)
+	at org.springframework.ide.eclipse.boot.dash.model.BootDashViewModel.<init>(BootDashViewModel.java:69)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext$Definition.get(SimpleDIContext.java:68)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.lambda$1(SimpleDIContext.java:106)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.getBean(SimpleDIContext.java:106)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator.getModel(BootDashActivator.java:140)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.model(BootDashTargetInfoSynchronizer.java:96)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.start(BootDashTargetInfoSynchronizer.java:47)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashCfPlugin.lambda$0(BootDashCfPlugin.java:25)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 4 0 2021-08-24 19:27:58.922
+!MESSAGE FileNotFoundException: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Docker.prefs (Argumento inválido)
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Docker.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:287)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1075)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1051)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:389)
+	at org.springsource.ide.eclipse.commons.core.pstore.PreferenceBasedStore.put(PreferenceBasedStore.java:37)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.store(RunTargetPropertiesManager.java:105)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:79)
+	at org.springframework.ide.eclipse.boot.dash.model.RunTargetPropertiesManager.gotValue(RunTargetPropertiesManager.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.addListener(LiveExpression.java:171)
+	at org.springframework.ide.eclipse.boot.dash.model.BootDashViewModel.<init>(BootDashViewModel.java:69)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext$Definition.get(SimpleDIContext.java:68)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.lambda$1(SimpleDIContext.java:106)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)
+	at org.springframework.ide.eclipse.boot.dash.di.SimpleDIContext.getBean(SimpleDIContext.java:106)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator.getModel(BootDashActivator.java:140)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.model(BootDashTargetInfoSynchronizer.java:96)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashTargetInfoSynchronizer.start(BootDashTargetInfoSynchronizer.java:47)
+	at org.springframework.ide.eclipse.boot.dash.cf.BootDashCfPlugin.lambda$0(BootDashCfPlugin.java:25)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: java.io.FileNotFoundException: /media/rodolpho/Dados/Development/FaculdadeADS/2021/3Sem/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash:Docker.prefs (Argumento inválido)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.core.internal.preferences.SafeFileOutputStream.<init>(SafeFileOutputStream.java:49)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:281)
+	... 31 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:58.999
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pFCgIBCJisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.004
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.006
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.007
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.008
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pFCgIBCJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.010
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.015
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.016
+!MESSAGE buffering callback sts4.classpath.pFCgIBCJ pib-estados false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.018
+!MESSAGE executing callback sts4.classpath.pFCgIBCJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:27:59.563
+!MESSAGE executing callback sts4.classpath.pFCgIBCJ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:35.130
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pFCgIBCJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:35.133
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pFCgIBCJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:35.133
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:35.136
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pFCgIBCJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:37.082
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:37.085
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3352452e[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=989)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:37.086
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:40.800
+!MESSAGE Boot LS startup time from start to initialized: 3707ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.019
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pFYWdwjBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.021
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.022
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.023
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.023
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.026
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.028
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pFYWdwjB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.029
+!MESSAGE buffering callback sts4.classpath.pFYWdwjB pib-estados false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.031
+!MESSAGE executing callback sts4.classpath.pFYWdwjB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:32:41.545
+!MESSAGE executing callback sts4.classpath.pFYWdwjB SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-24 19:32:43.843
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:35:16.447
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pFYWdwjB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:35:16.449
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pFYWdwjB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:35:16.450
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-24 19:35:16.451
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pFYWdwjB => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-08-24 19:35:21.761
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
